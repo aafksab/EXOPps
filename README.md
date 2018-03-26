@@ -10,17 +10,10 @@ I Have the ps1 functions script dot sourced into my PS profile for CurrentUser/A
 
 I also call the Start-ExchangeOnline function in the PS profile script
 
-####################
-# $Profile example #
-####################
-
-
-<# Start Script
-
-# directory where my scripts are stored
+# $Profile example
 . 'C:\Users\aafksab\Documents\Functions\MyFunctions.ps1'
 . 'C:\Users\aafksab\Documents\Functions\EXOPps.ps1'
 
 start-ExchangeOnline
 
-#> End Script
+# End Script
