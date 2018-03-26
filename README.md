@@ -16,8 +16,8 @@ I also call the Start-ExchangeOnline function in the PS profile script
 <# Start Script
 
 # directory where my scripts are stored
-. 'C:\Users\alex.watts\Documents\Functions\MyFunctions.ps1'
-. 'C:\Users\alex.watts\Documents\Functions\EXOPps.ps1'
+. 'C:\Users\aafksab\Documents\Functions\MyFunctions.ps1'
+. 'C:\Users\aafksab\Documents\Functions\EXOPps.ps1'
 
 start-ExchangeOnline
 
