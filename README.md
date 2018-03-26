@@ -13,7 +13,7 @@ I also call the Start-ExchangeOnline function in the PS profile script
 # $Profile example
 . 'C:\Users\aafksab\Documents\Functions\MyFunctions.ps1'
 . 'C:\Users\aafksab\Documents\Functions\EXOPps.ps1'
-
-start-ExchangeOnline
+Import-Module ActiveDirectory
+Start-ExchangeOnline
 
 # End Script
