@@ -13,7 +13,9 @@ I also call the Start-ExchangeOnline function in the PS profile script
 # $Profile example
 . 'C:\Users\aafksab\Documents\Functions\MyFunctions.ps1'
 . 'C:\Users\aafksab\Documents\Functions\EXOPps.ps1'
-Import-Module ActiveDirectory
-Start-ExchangeOnline
 
-# End Script
+if (!(Get-Module ActiveDirectory)) {
+  Import-Module ActiveDirectory -DisableNameChecking
+}
+
+Start-ExchangeOnline
